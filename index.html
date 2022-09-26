@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/745/745752.png">
+    <title> Megaflix</title>
+  </head>
+  <body>
+    <div class="imagemdefilme">
+      
+      
+    <div class="filter-wrapper">
+      <img class="logotipo" src="https://cdn-icons-png.flaticon.com/512/6055/6055588.png"></img>
+       <div class=" botoesseriefilme">
+        <button id="inicio-button">Início</button>
+        <button id="filmes-button">Filmes</button>
+        <button id="series-button">Séries</button>
+        <button id="favoritos-button">Favoritos</button>
+      </div>
+      <div class="pesquisa">
+      <input class="pesq" placeholder="Pesquisar" id="filtropesquisa" list="nomes" autocomplete="off" />
+      <button class="botaodapesquisa" id="filtropesquisa2"></button> 
+      </div>
+      <div class="dropdown">
+       <button class="dropbtn">Gênero</button>
+        <div class="dropdown-content">
+         <button id="acao"     class="categoria-botoes">Ação</button>
+         <button id="aventura" class="categoria-botoes">Aventura</button>      
+         <button id="comedia"  class="categoria-botoes">Comédia</button>  
+         <button id="drama"    class="categoria-botoes">Drama</button>  
+         <button id="ficcao"   class="categoria-botoes">Ficção</button>     
+         <button id="policial" class="categoria-botoes">Policial</button>    
+         <button id="romance"  class="categoria-botoes">Romance</button>   
+         <button id="suspense" class="categoria-botoes">Suspense</button> 
+        </div>            
+      </div>
+    </div>
+    <div id="root"></div>
+    <div id="rodape-body" class="rodape-body">
+      <h1></h1>
+    </div>
+    <script src="./scripts/index.js" type="module"></script>
+    
+  </body>
+</html>
